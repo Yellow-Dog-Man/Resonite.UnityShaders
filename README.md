@@ -6,6 +6,11 @@ You can get Resonite free on Steam: https://store.steampowered.com/app/2519830/R
 Currently Resonite offers a fixed set of shaders to build content with, which are based on Unity shaders. This repository contains the source code of those shaders for reference purposes
 
 # What's the purpose of this repo?
+> [!CAUTION]
+> Importing these shaders into the Unity SDK will NOT WORK AUTOMATICALLY! It requires converters to be implemented first.
+>
+> If you'd like to help us get those converterters implemented, find more information in this issue: https://github.com/Yellow-Dog-Man/Resonite.UnitySDK/issues/47
+
 There three primary reasons we made this repository:
 1) Reference for implementing a new official Unity renderer as well as custom ones
     - Our goal is to move away from Unity as a renderer and switch to one that we fully control
